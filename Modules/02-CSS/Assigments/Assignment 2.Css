@@ -1,0 +1,25 @@
+.breadcrumb {  
+   list-style:none;
+   padding:10px;
+   background-color:greenyellow;
+  }
+  
+  .breadcrumb li {
+    Display:inline;
+  }
+  
+  .breadcrumb li a {
+    
+        color: #333;
+      
+  }
+  
+  .breadcrumb li:not(:first-child)::before{
+    content:"/";
+    color:red;
+    padding:0px;
+    font-weight:bold;
+  }
+  /* add a CSS selector that selects all list elements except for 1st one */
+  /* add "/" before each selected list  */
+  /* add text color and padding *
